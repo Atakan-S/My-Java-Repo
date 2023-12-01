@@ -1,0 +1,14 @@
+task1:     //Ahmet 1999 doğumludur,şuan kaç yaşındadır
+[22:00]
+task 2: //Ahmet 12 , annesi ayse hanım 35
+        // yaşında olduğuna göre yaşları toplamı kaçtır? totalCount (toplam yaş)
+        // şeklinde yazabilirsiniz
+[22:00]
+Task3:  /*
+        Emel 8 yaşında, Fatih Emelden 7 yaş büyüktür.
+        Salih Fatihden 5 yaş küçük ise salihin yaşı kaçtır.
+         */
+[22:01]
+Task4: //ogrencinin adı Harun, öğretmenin adı ise Leyla dır,
+        // bu isimleri bir değişkene atayarak değişkeni
+        // Leyla Öğretmen Harun'a "Aferin" dedi.

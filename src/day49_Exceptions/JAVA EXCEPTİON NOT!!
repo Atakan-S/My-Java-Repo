@@ -1,0 +1,8 @@
+1.Compile time error
+2.Logical error
+3.RunTime Error
+Statement
+ 1.normal
+ 2.critical
+ TRY CATCH KULLANIRKEN TRY IN İÇİNDEKİ HATADAN SONRASINI ÇALIŞTIRMAZ DİREK CATCH BLOĞUNA GİRER VE DEVAM EDER
+ Catch bloğu içinde try catch yapısını tekrar kullanabiliriz

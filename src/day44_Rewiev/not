@@ -1,0 +1,36 @@
+method overloading aynı class içinde olur
+method over ridingde erişimleri eşit olmalıdır
+protected a farkl paketten erişebikmek için inheritance olmalı
+tüm class lar object class ına otomatık extends edilmiştir
+classlarda access kullanamadığımz için bu iş için final key wordu kullanırız
+static blok class çalışırken sadece 1 kere çalışır
+ınstance blok ise her obje oluşturuldugunda çalışır
+final arrayde içerik değiştirilebilir ancak arrayleri birbirine eşitleyemezsin
+final class kullanıldımı ınheritance kullanılamaz yani hiçbir class extends edilemez
+SUBCLASS= child class
+ABSTRACTION = DETAİL HİDİNG
+ENCAPSULATION= DATA HİDİNG
+ABSTRACTİON iki yolla sağlanır classları abstarck yaparak veya interface ile
+ABSTRACTİON
+kullanıcıya detayları gizlemek için kullanılır
+parent klassta genel ozelliklere değinilir detaylar child classlarda toplanır
+kullanıcıyla ilgisi olmayan şeyler gizlenmiş olur
+FAYDALARI
+karmaşıklığı azaltır
+modülerlik artar
+kod tekrarını azaltır
+encapsulatıon veriye erişimle ilgilidir --- abstraction ise detayları gizlemek ile  ilgilidir
+ABSTRAC CLASS TAN OBJE--NESNE ÜRETEMEYİZ
+abstract keyword ile class ve method oluşturulabilir!!!!!
+abstract override ile çalışır yapmak zorundayız
+abstract class abstract classa extend olabilir
+Abstrack class final olamaz çünkü override edilmeez hale gelir
+private te olamaz
+-------------------------------------------------------
+INTERFACE
+MULTİPLE İNHERİTANCE
+IMPLEMENTS kullanılır
+CLASS--> EXTENDS --> CLASS --> IMPLEMENTS --> INTERFACE --> EXTENDS --> INTERFACE
+içinde varaiable bulundurabilir ama sadece static ve final olarak
+sadece public olabilir
+

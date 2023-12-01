@@ -1,0 +1,8 @@
+polymorphism is referance type casting.
+bir objenin farklı formlar alabilmesine yarar.
+Referans tipi parent class olmak zorunda!!!!!!!!
+Referans tipi nelere erişebileceğini belirler
+ DYNAMİC POLYMORPHİSM == METHOD OVERRİDİNG.
+ STATİC POLYMORPHİSM == METHOD OVERLOADİNG
+ POLYMORPHİSM DE CAST YAPMAYA İHTİYAÇ DUYARIZ ÇÜNKÜ PARENT CLASS İLE CHİLD CLASS OLUŞTURUCAZ
+ CHİLD CLASS IN ÖZEL METHODLARINA ERİŞEBİLMEK İÇİN CASTİNG YAPMAK GEREKİR

@@ -1,0 +1,75 @@
+Collections
+nesneleri bir arada tutan yapılara denir. karşılaşılan durumlara göre farklı collection yapıları kullanabiliriz.
+1-List : arraylist linkedlist vector stack
+2-Que  : priorityQue , arrayque
+3-Set  : hashset, linkedhashset, threeset
+     data structures:
+           array
+           collection
+           map
+     Array:
+       size fix
+       sadece tek tip değişken barındırır
+
+     Collection:
+       size dinamiktir
+       tüm veri tiplerini destekler
+       collection sınıfından obje üretilmez
+
+      collectionun alt bileşenleri
+        List(Interface):  duplicate data alabilir
+                          ekleme sırası ile dataları alır ve sırayı muhafaza eder
+                          dataların index numarası var
+
+
+                            Arraylist:  array yapısını kullanır,array ama dinamik bir array
+                                        dataya hızlı ulaşır anca set etme konusunda o kadarda hızlı değildir
+
+
+                            LinkedList: her bir datanın onunde ve arkasında referansları vardır
+                                        bu yapı set etmede arraylistten daha hızlı arraylist ise dataya ulaşmakta daha hızlı
+                                        dez avantajı daha fazla yer kaplamasıdır
+
+                            Vector:    diyince aklımıza Thread safe and synchronize
+                                       buda array kullanır
+
+                            stack:     son giren ilk çıkar şeklinde çalışır
+                            pop en son gireni çıkarır
+                            push içeri atar
+                             last in first out
+      Queue = Sıra
+        Duplicate yapılabilir
+        First in First out
+        İndex yapısı yokturr!!!
+        poll() -->
+        FIFO
+        PriorityQueue(Öncelşk vermeye yarar)(C)
+        ArrysDequeue(C)
+        LinkedList(C)
+
+
+
+      Set(InterFace)
+      tekrarlanan elementleri kabul etmez!!
+      sıralı şekilde depolama yapmazz!!
+      bundada index yoktur!!
+      random sıralama yapar
+      null kabul eder
+
+                    HashSet:
+                             senkronize değildir.
+                             ekleme sırasını korumazz(Lined HashSet sıralamayı korur)
+                             random sıralar
+
+                    Tree Set:
+                             yinelenen veriler kabul etmez
+                             otomatik olarak sıralamaya alır alfabatik ve küçükten büyüge
+                             büyük miktardaki bilgileri depolamak için kullanılır
+                             null değer kabul etmez.
+
+      List ve set arasındaki fark
+      LİST                       SET
+      SIRA KORUNUR           SETTE KORUNMAZ
+      SIRALAMA YAPMAZ        SIRALAMA YAPAR(THREE MAP)
+      DUPLİCATE ALIR         ALMAZ
+   (VECTOR)SENKRONIZEYAPIVAR SENKRONİZE YAPI YOK

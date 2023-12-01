@@ -1,0 +1,37 @@
+--VERSİON CONTROL SİSTEM--
+
+  1-yapılan herşeyi takip altına alan sisteme denir.
+  2-yazılımda çpk efektif olarak kullanılır.
+  3-bir projenin arkasında bir çok mikro servis(daha küçük projeler) bulunur
+    bunların kontrolu version control ile sağlanır.
+  4-sektörde her yapılan işlemde projenin kaydını tutar ve geri dönüş noktası yaratır
+  5-kimin , niçin ,ne zaman , ne oluşturdupuna dair bilgilere ulaşabiliyoruz
+  6-Bize takım çalışması imkanı sağlar. proje farklı kişilerin elinden geçerek sürekli son versiyonun aktarılmasını sağlar
+--GİT NEDİR?--
+  En yaygın Version kontrol sistemidir.
+  Farklı şirketler farklı gitleri kullanabilir(GİT HUB,GİT LAB ETC.)
+  Open Source = Herkese açık src kod veya kaynak.Herkes tarafından geliştirilebilir.
+--GİT TANIMLARI--
+  REPOSİTORY --> Local= kendi deponda,Repo= uzaktaki depoda --> Kod deposu.
+  Stage --> Kayıt edilmeye müsait alan.
+  Commit --> Kaydetmek
+  Branch --> Branş
+  Pull & Push & Fetch -->
+  -push codu remote a göndermek
+  -pull codu çekmek ve düzenlemek için
+  -fetch bilgiyi görmek için yani veriyi pull etmeden sadece bakmak için
+  Merge --> Branşları birleştirmek
+  --GİT KOMUTLARI--
+  GİT ADD --> yaptığımız değişiklikleri git'te stage alanına eklenir.
+  GİT RM --CACHED --> Eklediğimiz öğeyi kaldırmak için kullanılır
+  GİT ADD . --> Tüm değişiklikleri tek tek add etmeden eklememizi sağlar
+  GİT COMMİT --> Eklenen öğerleri kayıtetmeye yarar. Commitlere ne yapıldığına dair mesajlar eklenir (-m "  ")
+  Her değişiklikten sonra tekrar add ve commit edilmelidir.
+  MATER BRANCH -- Projenin ana branch ıdır.
+  GİT COMMİT -m -- mesaj ile kommit eder.
+  GİT COMMİT -am -- hem add yapar hem mesaj kaydeder.
+  GİT BRANCH -- hangi branchta olduğunu gösterir.
+  GİT BRANCH BRANCHİSMİ -- Yeni branch oluşturur.
+  GİT CHECKOUT BRANCHİSMİ -- Branch değiştirmeni sağlar.
+  GİT MERGE (MERGE ETMEK İSTEDİĞİMİZ BRABCHE İSMİ) --> Branchımızı Mastera ekleme için veya branch birleştirmek için kullanılır
+  

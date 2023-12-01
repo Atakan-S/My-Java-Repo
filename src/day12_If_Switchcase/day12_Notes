@@ -1,0 +1,6 @@
+// ÇOK ONEMLİİİİİİİİ STRİNG İFADELERİN EŞİTLİĞİNE BAKMAK İSTERSEK .EQUALS KULLANMALIYIZ ORNEK str1.equals(str2)
+string str1="a";
+string str2="b";
+boolean b = str1.equals(str2)
+// equal kullanırkan buyuk kucuk harfi ihmal etmesini isterseniz .equalıgnorecase kullanılır
+otomasyonda çok onemli bi yeri olucak unutma
